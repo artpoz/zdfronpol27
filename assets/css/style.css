@@ -35,3 +35,79 @@ h1 {
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
+
+.hero-text-box{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    color: black;
+    background-color: pink;
+    padding: 12px;
+    border-radius: 20px;
+}
+.hero-text-box .main{
+    font-size: 48px;
+}
+.hero-text-box .sub-main{
+    font-size: 22px;
+}
+.hero-btn{
+    margin: 8px;
+    padding: 8px 16px;
+    background-color: #efefef;
+    box-shadow: none;
+    outline: none;
+    border: 2px solid black;
+    color: black;
+    border-radius: 16px;
+}
+.hero-btn-outline{
+    border: 2px solid #fefefe;
+    color: #fefefe;
+    background-color: transparent;
+}
+
+.hero btn:hover{
+    background-color: lightgoldenrodyellow;
+}
+
+.about-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-title {
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.image-box {
+    width: 50%;
+    height: 50vh;
+    background-image: url("../img/section_about.jpg");
+}
+
+.text-box {
+    width: 50%;
+    height: 50vh;
+    margin: 10px 0 10px 5px;
+    overflow: scroll;
+    background-color:  bisque;
+}
+
+.img-product {
+    width: 200px;
+    height: 50vh;
+    display: cover;
+    flex-wrap: wrap;
+}
+
+.img-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
