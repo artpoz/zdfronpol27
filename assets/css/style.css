@@ -11,6 +11,8 @@
     display: flex;
     align-items: center;
     justify-content:  center;
+    background-image: url('../img/hero-img.jpg');
+    background-size: cover;
 }
 .navlist{    
     list-style: none;
@@ -26,9 +28,10 @@ h1 {
     font-size: 40px;
 }
 
-a{
+.list-item-link {
+    text-transform: uppercase;
     text-decoration-line: none;
     color: black;
     font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
